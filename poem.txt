@@ -2300,14 +2300,13 @@ Let us smile each chance we get.
 As I was a-goin over Gilgarra Mountain
 I spied Colonel Farrell, and his money he was countin.
 First I drew my pistols and then I drew my rapier,
-Sayin Stand and deliver, for I am your bold receiver.
-Musha ringum duram da,
-Whack fol the daddy-o,
+Saying Stand and deliver, for I am your bold receiver.
+
 He counted out his money and it made a pretty penny;
 I put it in my pocket to take home to darlin Jenny.
 She sighed and swore she loved me and never would deceive me,
 Bu the devil take the women, for they always lie so easy!
-Musha rungum duram da
+
 I went into me chamber all for to take a slumber,
 To dream of gold and girls, and of course it was no wonder:
 Me Jenny took me charges and she filled them up with water,
@@ -2320,7 +2319,6 @@ They put me into jail with a judge all a-writin:
 For robbin Colonel Farrell on Gilgarra Mountain.
 But they didnt take me fists and I knocked the jailer down
 And bid a farewell to this tight-fisted town.
-Musha ringum duram da
 Id like to find me brother, the one whos in the army;
 I dont know where hes stationed, be it Cork or in Killarney.
 Together wed go roamin oer the mountains of Kilkenny,
@@ -2396,7 +2394,8 @@ Said, Dear, I love thee; and I sank and quailed
 As if God's future thundered on my past.
 This said, I am thine—and so its ink has paled
 With lying at my heart that beat too fast.
-And this . . . 0 Love, thy words have ill availed
+And this . . . 
+ Love, thy words have ill availed
 If, what this said, I dared repeat at last!
 Dearest creature in creation, Study English pronunciation.
 I will teach you in my verse Sounds like corpse, corps,
