@@ -26,9 +26,9 @@ max_sequence_len = max([len(x) for x in input_sequences])
 input_sequences = np.array(pad_sequences(input_sequences, maxlen=max_sequence_len, padding='pre'))
 
 # # Create predictors and label
-# xs, labels = input_sequences[:,:-1],input_sequences[:,-1]
+xs, labels = input_sequences[:,:-1],input_sequences[:,-1]
 
-# ys = tf.keras.utils.to_categorical(labels, num_classes=total_words)
+ys = tf.keras.utils.to_categorical(labels, num_classes=total_words)
 
 # # Step 5: Build the Model
 # model = tf.keras.Sequential([
@@ -41,11 +41,11 @@ input_sequences = np.array(pad_sequences(input_sequences, maxlen=max_sequence_le
 # model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
 # # Step 6: Train the Model
-# model.fit(xs, ys, epochs=10, verbose=1)
+# model.fit(xs, ys, epochs=40, verbose=1)
 
 
-# model.save('poemgenerator2.keras')
-model = tf.keras.models.load_model('poemgenerator2.keras')
+# model.save('poem_generator.keras')
+model = tf.keras.models.load_model('poem_generator.keras')
 
 
 # Step 7: Generate Poems
