@@ -8,18 +8,24 @@ st.title("POEM GENERATOR ")
 prom = st.chat_input('Enter how the poem should be started')
 st.write(prom)
 
-file_p = tf.keras.utils.get_file('shakespeare.txt','https://storage.googleapis.com/download.tensorflow.org/data/shakespeare.txt')
+file_p = 'poem.txt'
 
 text = open(file_p , 'r',encoding = "utf-8").read().lower()
-ch = sorted(set(text))
-sentence = [] #feature data
-next_char = [] #targeted data
+print(len(text))
+# text = text[]
 
+text = text[300000 : 800000]
+
+ch = sorted(set(text))
+# print(ch)
 
 ch_to_val = dict((c,i) for i ,c in enumerate(ch))
 val_to_char = dict((i,c) for i,c in enumerate(ch))
 # print(b_to_char)
 
+#to predict the next char
+sentence = [] #feature data
+next_char = [] #targeted data
 l = 50
 line_size = 10
 
@@ -51,4 +57,3 @@ def generate_text(length , temp):
     return poem
 
 print(generate_text(300 , 0.6))
-
